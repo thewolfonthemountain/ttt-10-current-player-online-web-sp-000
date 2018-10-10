@@ -1,8 +1,8 @@
 def turn_count(board)
-board.each do |space|
 counter = 0
+board.each do |space|
 if space == "X" || space == "O" then counter += 1
     end
   end
-counter
+puts counter
 end
