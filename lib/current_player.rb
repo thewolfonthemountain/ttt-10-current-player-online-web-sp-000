@@ -6,3 +6,11 @@ if space == "X" || space == "O" then counter += 1
   end
 counter
 end
+
+def current_player
+player = "X"
+  if counter % 2 = 0 then player = "X"
+  else player = "O"
+end
+player
+end
